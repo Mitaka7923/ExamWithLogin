@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LoginPassword;
+using System;
 using System.Windows.Forms;
 
 namespace TestForm
@@ -13,7 +14,7 @@ namespace TestForm
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Test());
+            Application.Run(new LoginForm());
         }
     }
 }

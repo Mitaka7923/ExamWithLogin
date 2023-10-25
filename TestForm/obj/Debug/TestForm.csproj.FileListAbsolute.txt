@@ -31,3 +31,17 @@ C:\Users\pgeaA0\Desktop\ExamForm\TestForm\obj\Debug\TestForm.pdb
 \\pgea-store-01\Students\pgeaA0\Documents\ТП\ExamForm\TestForm\obj\Debug\TestForm.csproj.CoreCompileInputs.cache
 \\pgea-store-01\Students\pgeaA0\Documents\ТП\ExamForm\TestForm\obj\Debug\TestForm.exe
 \\pgea-store-01\Students\pgeaA0\Documents\ТП\ExamForm\TestForm\obj\Debug\TestForm.pdb
+D:\Dimitar_Projects\School\Grade-11\Задача-3-Тест\ExamForm\TestForm\bin\Debug\TestForm.exe.config
+D:\Dimitar_Projects\School\Grade-11\Задача-3-Тест\ExamForm\TestForm\bin\Debug\TestForm.exe
+D:\Dimitar_Projects\School\Grade-11\Задача-3-Тест\ExamForm\TestForm\bin\Debug\TestForm.pdb
+D:\Dimitar_Projects\School\Grade-11\Задача-3-Тест\ExamForm\TestForm\obj\Debug\TestForm.csproj.AssemblyReference.cache
+D:\Dimitar_Projects\School\Grade-11\Задача-3-Тест\ExamForm\TestForm\obj\Debug\TestForm.csproj.SuggestedBindingRedirects.cache
+D:\Dimitar_Projects\School\Grade-11\Задача-3-Тест\ExamForm\TestForm\obj\Debug\TestForm.Test.resources
+D:\Dimitar_Projects\School\Grade-11\Задача-3-Тест\ExamForm\TestForm\obj\Debug\TestForm.Properties.Resources.resources
+D:\Dimitar_Projects\School\Grade-11\Задача-3-Тест\ExamForm\TestForm\obj\Debug\TestForm.ScoreForm.resources
+D:\Dimitar_Projects\School\Grade-11\Задача-3-Тест\ExamForm\TestForm\obj\Debug\TestForm.csproj.GenerateResource.cache
+D:\Dimitar_Projects\School\Grade-11\Задача-3-Тест\ExamForm\TestForm\obj\Debug\TestForm.csproj.CoreCompileInputs.cache
+D:\Dimitar_Projects\School\Grade-11\Задача-3-Тест\ExamForm\TestForm\obj\Debug\TestForm.exe
+D:\Dimitar_Projects\School\Grade-11\Задача-3-Тест\ExamForm\TestForm\obj\Debug\TestForm.pdb
+D:\Dimitar_Projects\School\Grade-11\Задача-3-Тест\ExamForm\TestForm\obj\Debug\LoginPassword.CorrectUserForm.resources
+D:\Dimitar_Projects\School\Grade-11\Задача-3-Тест\ExamForm\TestForm\obj\Debug\LoginPassword.LoginForm.resources

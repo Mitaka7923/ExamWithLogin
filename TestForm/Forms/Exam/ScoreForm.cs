@@ -8,11 +8,14 @@ namespace TestForm
     {
         private double userScore;
         private double userGrade;
+        private string username;
 
-        public ScoreForm(double score)
+        public ScoreForm(double score, string username)
         {
             InitializeComponent();
-            
+
+            this.username = username;
+            this.title.Text = $"{this.username} предаде теста си"; 
             this.userScore = score;
             this.userGrade = Grade.SetGrade(this.userScore);
         }
@@ -34,7 +37,7 @@ namespace TestForm
             this.gradeDisplayLabel.Text = $"{gradeText} {(this.userGrade < 2 ? 2 : this.userGrade):F2}";
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void closeButton_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }

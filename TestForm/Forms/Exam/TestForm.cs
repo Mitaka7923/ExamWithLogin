@@ -4,6 +4,7 @@ using System.Drawing;
 using System.Windows.Forms;
 using TestForm.ScoreCheck;
 using TestForm.Initialization;
+using LoginPassword;
 
 namespace TestForm
 {
@@ -29,12 +30,13 @@ namespace TestForm
             InitializeTestForm.SetQuestions(questions, groupBoxes);
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void checkAnswersButton_Click(object sender, EventArgs e)
         {
+            this.continueButton.Enabled = true;
             this.scoreChecker.form = this;
             this.scoreChecker.SetStudentScore();
             this.continueButton.Focus();
-            this.button1.Enabled = false;
+            this.checkAnswersButton.Enabled = false;
 
             foreach (var groupBox in this.groupBoxes)
             {
@@ -48,7 +50,7 @@ namespace TestForm
         private void continueButton_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var scoreForm = new ScoreForm(this.scoreChecker.UserScore);
+            var scoreForm = new ScoreForm(this.scoreChecker.UserScore, LoginForm.username);
             scoreForm.Show();
         }
 

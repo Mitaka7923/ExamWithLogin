@@ -85,7 +85,7 @@ namespace TestForm
             this.groupBox15 = new System.Windows.Forms.GroupBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.checkAnswersButton = new System.Windows.Forms.Button();
             this.continueButton = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -682,23 +682,24 @@ namespace TestForm
             this.label1.TabIndex = 20;
             this.label1.Text = "Входно ниво в живота";
             // 
-            // button1
+            // checkAnswersButton
             // 
-            this.button1.BackColor = System.Drawing.Color.LightPink;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button1.FlatAppearance.BorderSize = 2;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.Location = new System.Drawing.Point(591, 500);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(136, 61);
-            this.button1.TabIndex = 40;
-            this.button1.Text = "Предай";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.checkAnswersButton.BackColor = System.Drawing.Color.LightPink;
+            this.checkAnswersButton.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.checkAnswersButton.FlatAppearance.BorderSize = 2;
+            this.checkAnswersButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.checkAnswersButton.Location = new System.Drawing.Point(591, 500);
+            this.checkAnswersButton.Name = "checkAnswersButton";
+            this.checkAnswersButton.Size = new System.Drawing.Size(136, 61);
+            this.checkAnswersButton.TabIndex = 40;
+            this.checkAnswersButton.Text = "Предай";
+            this.checkAnswersButton.UseVisualStyleBackColor = false;
+            this.checkAnswersButton.Click += new System.EventHandler(this.checkAnswersButton_Click);
             // 
             // continueButton
             // 
             this.continueButton.BackColor = System.Drawing.Color.Lime;
+            this.continueButton.Enabled = false;
             this.continueButton.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.continueButton.FlatAppearance.BorderSize = 2;
             this.continueButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -718,7 +719,7 @@ namespace TestForm
             this.BackColor = System.Drawing.SystemColors.ControlLight;
             this.ClientSize = new System.Drawing.Size(930, 626);
             this.Controls.Add(this.continueButton);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.checkAnswersButton);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.groupBox15);
             this.Controls.Add(this.groupBox14);
@@ -831,7 +832,7 @@ namespace TestForm
         internal System.Windows.Forms.TextBox textBox3;
         internal System.Windows.Forms.TextBox textBox4;
         internal System.Windows.Forms.TextBox textBox5;
-        internal System.Windows.Forms.Button button1;
+        internal System.Windows.Forms.Button checkAnswersButton;
         internal System.Windows.Forms.Button continueButton;
     }
 }
