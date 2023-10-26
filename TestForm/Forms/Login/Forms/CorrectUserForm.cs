@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using TestForm;
 
@@ -13,10 +6,14 @@ namespace LoginPassword
 {
     public partial class CorrectUserForm : Form
     {
-        public CorrectUserForm()
+        private string username;
+
+        public CorrectUserForm(string username)
         {
             InitializeComponent();
+            this.username = username;
         }
+
         private void closeButton_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -24,13 +21,13 @@ namespace LoginPassword
 
         private void CorrectUserForm_Load(object sender, EventArgs e)
         {
-            this.welcomeLabel.Text = $"WELCOME {LoginForm.username}";
+            this.welcomeLabel.Text += $" {this.username}"; //ttt+
         }
 
-        private void examStartButton_Click(object sender, EventArgs e)
+        private void startTest_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var examForm = new Test();
+            var examForm = new Test(this.username);
             examForm.Show();
         }
     }

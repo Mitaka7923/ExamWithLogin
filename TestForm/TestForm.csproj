@@ -55,18 +55,21 @@
     </Compile>
     <Compile Include="Forms\Exam\GetUserInput\GetUserInput.cs" />
     <Compile Include="Forms\Exam\Initialization\InitializeTestForm.cs" />
-    <Compile Include="Forms\Login\CorrectUserForm.cs">
+    <Compile Include="Forms\Login\ClickMethods.cs" />
+    <Compile Include="Forms\Login\DataValidator.cs" />
+    <Compile Include="Forms\Login\Forms\CorrectUserForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Login\CorrectUserForm.Designer.cs">
+    <Compile Include="Forms\Login\Forms\CorrectUserForm.Designer.cs">
       <DependentUpon>CorrectUserForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Login\LoginForm.cs">
+    <Compile Include="Forms\Login\Forms\LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Login\LoginForm.Designer.cs">
+    <Compile Include="Forms\Login\Forms\LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Login\Initialization.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Forms\Exam\Initialization\Questions.cs" />
@@ -82,10 +85,10 @@
     <EmbeddedResource Include="Forms\Exam\TestForm.resx">
       <DependentUpon>TestForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Login\CorrectUserForm.resx">
+    <EmbeddedResource Include="Forms\Login\Forms\CorrectUserForm.resx">
       <DependentUpon>CorrectUserForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Login\LoginForm.resx">
+    <EmbeddedResource Include="Forms\Login\Forms\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">

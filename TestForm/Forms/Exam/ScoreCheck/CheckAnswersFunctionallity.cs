@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Windows.Forms;
+using TestForm.GetUserInput;
 using static TestForm.ColorManipulation.ColorManipulation;
 
 namespace TestForm.ScoreCheck
@@ -53,9 +54,11 @@ namespace TestForm.ScoreCheck
 
         internal void CheckCheckBoxAnswers(List<CheckBox[]> correctCheckBoxes)
         {
+            var userInput = new GetUserInput.GetUserInput(this.form);
+
             foreach (var checkBoxPair in correctCheckBoxes)
             {
-                var checkedCounter = GetCheckedBoxes(checkBoxPair);
+                var checkedCounter = userInput.GetCheckedBoxes(checkBoxPair);
 
                 if (checkBoxPair != correctCheckBoxes[4] &&
                     checkedCounter > 1)
@@ -78,21 +81,6 @@ namespace TestForm.ScoreCheck
                     ChangeColor("incorrect", checkBoxPair[0].Parent);
                 }
             }
-        }
-
-        private int GetCheckedBoxes(CheckBox[] checkBoxPair)
-        {
-            var checkedCounter = 0;
-
-            foreach (var checkBox in checkBoxPair)
-            {
-                if (checkBox.Checked)
-                {
-                    checkedCounter++;
-                }
-            }
-
-            return checkedCounter;
         }
     }
 }

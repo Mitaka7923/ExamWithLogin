@@ -11,11 +11,13 @@ namespace TestForm
     public partial class Test : Form
     {
         internal ScoreChecker scoreChecker;
+        internal string username;
         internal List<GroupBox> groupBoxes;
         internal GetUserInput.GetUserInput userInput;
 
-        public Test()
+        public Test(string username)
         {
+            this.username = username;
             InitializeComponent();
         }
 
@@ -50,7 +52,7 @@ namespace TestForm
         private void continueButton_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var scoreForm = new ScoreForm(this.scoreChecker.UserScore, LoginForm.username);
+            var scoreForm = new ScoreForm(this.scoreChecker.UserScore, this.username);
             scoreForm.Show();
         }
 

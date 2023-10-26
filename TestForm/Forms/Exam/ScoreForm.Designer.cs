@@ -42,7 +42,7 @@ namespace TestForm
             this.title.AutoSize = true;
             this.title.BackColor = System.Drawing.SystemColors.ControlLight;
             this.title.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.title.Location = new System.Drawing.Point(47, 100);
+            this.title.Location = new System.Drawing.Point(94, 144);
             this.title.Name = "title";
             this.title.Size = new System.Drawing.Size(420, 39);
             this.title.TabIndex = 0;
@@ -54,7 +54,7 @@ namespace TestForm
             this.scoreLabel.AutoSize = true;
             this.scoreLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.scoreLabel.ForeColor = System.Drawing.Color.Black;
-            this.scoreLabel.Location = new System.Drawing.Point(48, 246);
+            this.scoreLabel.Location = new System.Drawing.Point(52, 254);
             this.scoreLabel.Name = "scoreLabel";
             this.scoreLabel.Size = new System.Drawing.Size(111, 33);
             this.scoreLabel.TabIndex = 1;
@@ -65,7 +65,7 @@ namespace TestForm
             this.gradeLabel.AutoSize = true;
             this.gradeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.gradeLabel.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.gradeLabel.Location = new System.Drawing.Point(48, 290);
+            this.gradeLabel.Location = new System.Drawing.Point(52, 298);
             this.gradeLabel.Name = "gradeLabel";
             this.gradeLabel.Size = new System.Drawing.Size(134, 33);
             this.gradeLabel.TabIndex = 2;
@@ -76,7 +76,7 @@ namespace TestForm
             this.gradeDisplayLabel.AutoSize = true;
             this.gradeDisplayLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.gradeDisplayLabel.ForeColor = System.Drawing.Color.Crimson;
-            this.gradeDisplayLabel.Location = new System.Drawing.Point(196, 290);
+            this.gradeDisplayLabel.Location = new System.Drawing.Point(200, 298);
             this.gradeDisplayLabel.Name = "gradeDisplayLabel";
             this.gradeDisplayLabel.Size = new System.Drawing.Size(0, 33);
             this.gradeDisplayLabel.TabIndex = 4;
@@ -86,7 +86,7 @@ namespace TestForm
             this.scoreDisplayLabel.AutoSize = true;
             this.scoreDisplayLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.scoreDisplayLabel.ForeColor = System.Drawing.Color.Crimson;
-            this.scoreDisplayLabel.Location = new System.Drawing.Point(190, 246);
+            this.scoreDisplayLabel.Location = new System.Drawing.Point(194, 254);
             this.scoreDisplayLabel.Name = "scoreDisplayLabel";
             this.scoreDisplayLabel.Size = new System.Drawing.Size(0, 33);
             this.scoreDisplayLabel.TabIndex = 5;
@@ -96,7 +96,7 @@ namespace TestForm
             this.closeButton.BackColor = System.Drawing.Color.DarkRed;
             this.closeButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.closeButton.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.closeButton.Location = new System.Drawing.Point(202, 394);
+            this.closeButton.Location = new System.Drawing.Point(202, 384);
             this.closeButton.Name = "closeButton";
             this.closeButton.Size = new System.Drawing.Size(201, 56);
             this.closeButton.TabIndex = 7;

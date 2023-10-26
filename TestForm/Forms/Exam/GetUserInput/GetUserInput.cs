@@ -12,20 +12,19 @@ namespace TestForm.GetUserInput
             this.form = form;
         }
 
-        public List<CheckBox> GetCheckedBoxes()
+        public int GetCheckedBoxes(CheckBox[] checkBoxPair)
         {
-            var checkBoxes = new List<CheckBox>() { form.checkBox11C, form.checkBox12, form.checkBox13, form.checkBox14C, form.checkBox21C, form.checkBox22, form.checkBox23C, form.checkBox24, form.checkBox31C, form.checkBox32C, form.checkBox33, form.checkBox34, form.checkBox41, form.checkBox42, form.checkBox43C, form.checkBox44C, form.checkBox51C, form.checkBox52, form.checkBox53C, form.checkBox5C4 };
-            var checkedBoxes = new List<CheckBox>();
+            var checkedCounter = 0;
 
-            foreach (var checkBox in checkBoxes)
+            foreach (var checkBox in checkBoxPair)
             {
                 if (checkBox.Checked)
                 {
-                    checkedBoxes.Add(checkBox);
+                    checkedCounter++;
                 }
             }
 
-            return checkedBoxes;
+            return checkedCounter;
         }
 
         public List<RadioButton> GetCheckedRadio()

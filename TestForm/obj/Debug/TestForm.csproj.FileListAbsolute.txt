@@ -45,3 +45,16 @@ D:\Dimitar_Projects\School\Grade-11\Задача-3-Тест\ExamForm\TestForm\ob
 D:\Dimitar_Projects\School\Grade-11\Задача-3-Тест\ExamForm\TestForm\obj\Debug\TestForm.pdb
 D:\Dimitar_Projects\School\Grade-11\Задача-3-Тест\ExamForm\TestForm\obj\Debug\LoginPassword.CorrectUserForm.resources
 D:\Dimitar_Projects\School\Grade-11\Задача-3-Тест\ExamForm\TestForm\obj\Debug\LoginPassword.LoginForm.resources
+\\pgea-store-01\Students\pgeaA0\Documents\ТП\ExamWithLogin\TestForm\obj\Debug\TestForm.csproj.AssemblyReference.cache
+\\pgea-store-01\Students\pgeaA0\Documents\ТП\ExamWithLogin\TestForm\obj\Debug\TestForm.Test.resources
+\\pgea-store-01\Students\pgeaA0\Documents\ТП\ExamWithLogin\TestForm\obj\Debug\LoginPassword.CorrectUserForm.resources
+\\pgea-store-01\Students\pgeaA0\Documents\ТП\ExamWithLogin\TestForm\obj\Debug\LoginPassword.LoginForm.resources
+\\pgea-store-01\Students\pgeaA0\Documents\ТП\ExamWithLogin\TestForm\obj\Debug\TestForm.Properties.Resources.resources
+\\pgea-store-01\Students\pgeaA0\Documents\ТП\ExamWithLogin\TestForm\obj\Debug\TestForm.ScoreForm.resources
+\\pgea-store-01\Students\pgeaA0\Documents\ТП\ExamWithLogin\TestForm\obj\Debug\TestForm.csproj.GenerateResource.cache
+\\pgea-store-01\Students\pgeaA0\Documents\ТП\ExamWithLogin\TestForm\obj\Debug\TestForm.csproj.CoreCompileInputs.cache
+\\pgea-store-01\Students\pgeaA0\Documents\ТП\ExamWithLogin\TestForm\obj\Debug\TestForm.exe
+\\pgea-store-01\Students\pgeaA0\Documents\ТП\ExamWithLogin\TestForm\obj\Debug\TestForm.pdb
+\\pgea-store-01\Students\pgeaA0\Documents\ТП\ExamWithLogin\TestForm\bin\Debug\TestForm.exe.config
+\\pgea-store-01\Students\pgeaA0\Documents\ТП\ExamWithLogin\TestForm\bin\Debug\TestForm.exe
+\\pgea-store-01\Students\pgeaA0\Documents\ТП\ExamWithLogin\TestForm\bin\Debug\TestForm.pdb
