@@ -39,7 +39,7 @@ namespace LoginPassword
             this.welcomeLabel.AutoSize = true;
             this.welcomeLabel.Font = new System.Drawing.Font("Myanmar Text", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.welcomeLabel.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.welcomeLabel.Location = new System.Drawing.Point(168, 181);
+            this.welcomeLabel.Location = new System.Drawing.Point(172, 180);
             this.welcomeLabel.Name = "welcomeLabel";
             this.welcomeLabel.Size = new System.Drawing.Size(306, 62);
             this.welcomeLabel.TabIndex = 2;

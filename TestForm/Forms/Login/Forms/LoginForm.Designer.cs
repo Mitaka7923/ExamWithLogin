@@ -33,7 +33,7 @@ namespace LoginPassword
 
         internal void eyePassword_Click(object sender, EventArgs e)
         {
-            clickMethods.seePasswordButton_Click(sender, e);
+
         }
 
         internal void keyPress_Enter(object sender, KeyPressEventArgs e)
@@ -152,7 +152,8 @@ namespace LoginPassword
             this.seePasswordButton.Size = new System.Drawing.Size(61, 44);
             this.seePasswordButton.TabIndex = 2;
             this.seePasswordButton.UseVisualStyleBackColor = false;
-            this.seePasswordButton.Click += new System.EventHandler(this.eyePassword_Click);
+            this.seePasswordButton.MouseDown += new System.Windows.Forms.MouseEventHandler(this.seePasswordButton_MouseDown);
+            this.seePasswordButton.MouseUp += new System.Windows.Forms.MouseEventHandler(this.seePasswordButton_MouseUp);
             // 
             // LoginForm
             // 

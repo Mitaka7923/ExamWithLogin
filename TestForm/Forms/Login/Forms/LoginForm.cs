@@ -24,5 +24,15 @@ namespace LoginPassword
             clickMethods = new ClickMethods(this);
             usernames = Initialization.AssignUsernames();
         }
+
+        private void seePasswordButton_MouseDown(object sender, MouseEventArgs e)
+        {
+            this.passwordInput.PasswordChar = '\0';
+        }
+
+        private void seePasswordButton_MouseUp(object sender, MouseEventArgs e)
+        {
+            this.passwordInput.PasswordChar = '*';
+        }
     }
 }

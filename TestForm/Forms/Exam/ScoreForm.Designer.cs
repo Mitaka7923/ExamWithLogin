@@ -42,7 +42,7 @@ namespace TestForm
             this.title.AutoSize = true;
             this.title.BackColor = System.Drawing.SystemColors.ControlLight;
             this.title.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.title.Location = new System.Drawing.Point(94, 144);
+            this.title.Location = new System.Drawing.Point(68, 153);
             this.title.Name = "title";
             this.title.Size = new System.Drawing.Size(420, 39);
             this.title.TabIndex = 0;

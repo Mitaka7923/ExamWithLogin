@@ -47,17 +47,5 @@ namespace LoginPassword
                 loginForm.loginButton.PerformClick();
             }
         }
-
-        internal void seePasswordButton_Click(object sender, EventArgs e)
-        {
-            if (loginForm.passwordInput.PasswordChar == '*')
-            {
-                loginForm.passwordInput.PasswordChar = '\0';
-            }
-            else
-            {
-                loginForm.passwordInput.PasswordChar = '*';
-            }
-        }
     }
 }
