@@ -139,6 +139,7 @@ namespace LoginPassword
             // seePasswordButton
             // 
             this.seePasswordButton.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.seePasswordButton.CausesValidation = false;
             this.seePasswordButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.seePasswordButton.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlDarkDark;
             this.seePasswordButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
