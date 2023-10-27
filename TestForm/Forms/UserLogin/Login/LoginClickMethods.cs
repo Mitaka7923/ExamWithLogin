@@ -4,13 +4,13 @@ using System.Windows.Forms;
 
 namespace LoginPassword
 {
-    internal class ClickMethods
+    internal class LoginClickMethods
     {
         private LoginForm loginForm;
 
-        public ClickMethods(LoginForm form)
+        public LoginClickMethods(LoginForm form)
         {
-            loginForm = form;
+            this.loginForm = form;
         }
 
         internal void LoginButton_Click(object sender, EventArgs e)
